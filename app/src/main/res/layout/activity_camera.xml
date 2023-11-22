@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/frame_Surface"
+        android:layout_width="match_parent"
+        android:layout_height="589dp"  />
+
+    <ImageView
+        android:id="@+id/switchCameraButton"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/swapcamera"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9effd"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Emotion Recogintion"
+        android:textAlignment="center"
+        android:textColor="#150c83"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="297dp">
+        <Button
+            android:id="@+id/opencamera"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button"
+            android:text="Open Camera" />
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="130dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button"
+            android:text="Gallery" />
+    </RelativeLayout>
+</LinearLayout>
